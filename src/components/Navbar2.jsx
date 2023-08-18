@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/css/NavBar2.css";
-import logo2 from "../assets/images/emr_logo.png"
+import logo2 from "../assets/images/emr_logo.png";
 
 function NavBar2() {
   const [click, setClick] = useState(false);
@@ -9,11 +9,11 @@ function NavBar2() {
   const handleClick = () => setClick(!click);
   return (
     <>
-      <nav className="navbar2">
+      <nav className="navbar2 bg-primaryy">
         <div className="nav2-container">
           <NavLink exact to="/" className="nav2-logo flex justify-between">
-          <img src={logo2} alt="logo" className="w-16 h-13" />
-      
+            <img src={logo2} alt="logo" className="w-16 h-13" />
+
             <i className="fas fa-code"></i>
           </NavLink>
 
@@ -95,7 +95,6 @@ function NavBar2() {
                 Sponsor
               </NavLink>
             </li>
-            
           </ul>
           <div className="nav2-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
