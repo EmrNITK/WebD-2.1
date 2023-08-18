@@ -9,6 +9,7 @@ const settings = {
   slidesToShow: 4,
   slidesToScroll: 1,
   // nextArrow: <NextArrow />,
+  // ...
   // prevArrow: <PrevArrow />,
   responsive: [
     {
