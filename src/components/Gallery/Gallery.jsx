@@ -48,6 +48,90 @@ function Gallery() {
         <div className="home_heading-1">Welcome To</div>
         <div className="home_heading-2" align="centre">Art Gallery of EMR Club</div>
         </div>
+
+        <div className="p2">
+      <h1 className="ss">Embedded Workshops</h1>
+      <Swiper
+        modules={[Navigation, Pagination, EffectCoverflow]}
+        navigation={true}
+        pagination={false}
+        effect={"coverflow"}
+        centeredSlides={true}
+        slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+        loop={true}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true
+        }}
+       
+        className="mySwiper"
+      >
+        <SwiperSlide>
+        <div>
+          <img src={img_w_1} />
+         
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_2} />
+        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_3} />
+        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_4} />
+       
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_5} />
+       
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_6} />
+       
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_7} />
+        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_8} />
+        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_9} />
+        
+        </div>
+        </SwiperSlide>
+        <SwiperSlide>
+        <div>
+        <img src={img_w_10} />
+        
+        </div>
+        </SwiperSlide>
+      </Swiper>
+      </div>
+
          <div className="dd">
        <h1 className="ss">Freshers 2K22</h1>
         <Swiper
@@ -190,88 +274,7 @@ function Gallery() {
         </SwiperSlide>
       </Swiper>
       </div>
-      <div className="p2">
-      <h1 className="ss">Workshops</h1>
-      <Swiper
-        modules={[Navigation, Pagination, EffectCoverflow]}
-        navigation={true}
-        pagination={false}
-        effect={"coverflow"}
-        centeredSlides={true}
-        slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-        loop={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true
-        }}
-       
-        className="mySwiper"
-      >
-        <SwiperSlide>
-        <div>
-          <img src={img_w_1} />
-         
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_2} />
-        
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_3} />
-        
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_4} />
-       
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_5} />
-       
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_6} />
-       
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_7} />
-        
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_8} />
-        
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_9} />
-        
-        </div>
-        </SwiperSlide>
-        <SwiperSlide>
-        <div>
-        <img src={img_w_10} />
-        
-        </div>
-        </SwiperSlide>
-      </Swiper>
-      </div>
+      
       <div className="p3">
       <h1 className="ss">Freshers</h1>
       <Swiper
