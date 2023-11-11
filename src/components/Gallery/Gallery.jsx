@@ -25,16 +25,16 @@ import img9 from '../../assets/images/Gallery/Farewell_22/IMG_5743.jpg';
 import img10 from '../../assets/images/Gallery/Farewell_22/IMG20220507131707_01.jpg';
 
 // workshop
-// import img_w_1 from '../../assets/images/Gallery/Workshop/emr1.jpg';
-// import img_w_2 from '../../assets/images/Gallery/Workshop/emr2.jpg';
-// import img_w_3 from '../../assets/images/Gallery/Workshop/emr3.jpg';
-// import img_w_4 from '../../assets/images/Gallery/Workshop/emr4.jpg';
-// import img_w_5 from '../../assets/images/Gallery/Workshop/emr5.jpg';
-// import img_w_6 from '../../assets/images/Gallery/Workshop/emr6.jpg';
-// import img_w_7 from '../../assets/images/Gallery/Workshop/emr7.jpg';
-// import img_w_8 from '../../assets/images/Gallery/Workshop/emr8.jpg';
-// import img_w_9 from '../../assets/images/Gallery/Workshop/emr9.jpg';
-// import img_w_10 from '../../assets/images/Gallery/Workshop/emr10.jpg';
+import img_w_1 from '../../assets/images/Gallery/Workshop/emr1.jpeg';
+import img_w_2 from '../../assets/images/Gallery/Workshop/emr2.jpeg';
+import img_w_3 from '../../assets/images/Gallery/Workshop/emr3.jpeg';
+import img_w_4 from '../../assets/images/Gallery/Workshop/emr4.jpeg';
+import img_w_5 from '../../assets/images/Gallery/Workshop/emr5.jpeg';
+import img_w_6 from '../../assets/images/Gallery/Workshop/emr6.jpeg';
+import img_w_7 from '../../assets/images/Gallery/Workshop/emr7.jpeg';
+import img_w_8 from '../../assets/images/Gallery/Workshop/emr8.jpeg';
+import img_w_9 from '../../assets/images/Gallery/Workshop/emr9.jpeg';
+import img_w_10 from '../../assets/images/Gallery/Workshop/emr10.jpeg';
 
 
 
@@ -49,7 +49,7 @@ function Gallery() {
         <div className="home_heading-2" align="centre">Art Gallery of EMR Club</div>
         </div>
 
-        {/* <div className="p2">
+        <div className="p2">
       <h1 className="ss">Embedded Workshops</h1>
       <Swiper
         modules={[Navigation, Pagination, EffectCoverflow]}
@@ -130,7 +130,7 @@ function Gallery() {
         </div>
         </SwiperSlide>
       </Swiper>
-      </div> */}
+      </div>
 
          <div className="dd">
        <h1 className="ss">Freshers 2K22</h1>
