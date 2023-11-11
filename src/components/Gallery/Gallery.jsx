@@ -26,7 +26,7 @@ import img10 from '../../assets/images/Gallery/Farewell_22/IMG20220507131707_01.
 
 // workshop
 import img_w_1 from '../../assets/images/Gallery/Workshop/emr1.jpg';
-import img_w_2 from '../../assets/images/Gallery/Workshop/emr2.jpg';
+// import img_w_2 from '../../assets/images/Gallery/Workshop/emr2.jpg';
 import img_w_3 from '../../assets/images/Gallery/Workshop/emr3.jpg';
 import img_w_4 from '../../assets/images/Gallery/Workshop/emr4.jpg';
 import img_w_5 from '../../assets/images/Gallery/Workshop/emr5.jpg';
@@ -75,12 +75,12 @@ function Gallery() {
          
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
         <div>
         <img src={img_w_2} />
         
         </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
         <div>
         <img src={img_w_3} />
