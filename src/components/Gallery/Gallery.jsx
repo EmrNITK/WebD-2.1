@@ -24,6 +24,18 @@ import img3 from '../../assets/images/Gallery/Farewell_22/IMG_4868.jpg';
 import img9 from '../../assets/images/Gallery/Farewell_22/IMG_5743.jpg';
 import img10 from '../../assets/images/Gallery/Farewell_22/IMG20220507131707_01.jpg';
 
+// workshop
+import img_w_1 from '../../assets/images/Gallery/Workshop/emr1.jpg';
+import img_w_2 from '../../assets/images/Gallery/Workshop/emr2.jpg';
+import img_w_3 from '../../assets/images/Gallery/Workshop/emr3.jpg';
+import img_w_4 from '../../assets/images/Gallery/Workshop/emr4.jpg';
+import img_w_5 from '../../assets/images/Gallery/Workshop/emr5.jpg';
+import img_w_6 from '../../assets/images/Gallery/Workshop/emr6.jpg';
+import img_w_7 from '../../assets/images/Gallery/Workshop/emr7.jpg';
+import img_w_8 from '../../assets/images/Gallery/Workshop/emr8.jpg';
+import img_w_9 from '../../assets/images/Gallery/Workshop/emr9.jpg';
+import img_w_10 from '../../assets/images/Gallery/Workshop/emr10.jpg';
+
 
 
 function Gallery() {
@@ -200,61 +212,61 @@ function Gallery() {
       >
         <SwiperSlide>
         <div>
-          <img src={img1} />
+          <img src={img_w_1} />
          
           </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_2} />
         
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_3} />
         
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_4} />
        
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_5} />
        
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_6} />
        
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_7} />
         
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_8} />
         
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_9} />
         
         </div>
         </SwiperSlide>
         <SwiperSlide>
         <div>
-        <img src={img1} />
+        <img src={img_w_10} />
         
         </div>
         </SwiperSlide>
