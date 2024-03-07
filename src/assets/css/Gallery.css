@@ -32,8 +32,8 @@
   align-items: center;
   font-size: 50%;
   font-weight: 800;
-  position: absolute;
-  top: 60px;
+  position: relative;
+  top: -120px;
 }
 
 .home_heading-1 {
@@ -75,7 +75,6 @@
 }
 .gallary-container .swiper-container {
   width: 70%;
-  position: relative;
   left: 50%;
   bottom: -16vw;
   -webkit-transform: translateX(-50%);
@@ -103,31 +102,7 @@
 }
 .ss {
   text-align: center;
-  position: relative;
-  top: -40px;
   color: rgb(188, 226, 194);
   font-size: 2rem;
   font-weight: 800;
-}
-.dd {
-  margin-top: 60px;
-  padding-top  : 100px;
-  position: relative;
-  top: 150px;
-}
-.p1 {
-  position: relative;
-  top: 250px;
-}
-.p2 {
-  position: relative;
-  top: 350px;
-}
-.p3 {
-  position: relative;
-  top: 450px;
-}
-.p4 {
-  position: relative;
-  top: 650px;
 }
