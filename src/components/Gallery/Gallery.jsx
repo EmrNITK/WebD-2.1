@@ -59,6 +59,17 @@ import img_f_20 from "../../assets/images/Gallery/Fresher_s2K24/img8.jpg";
 import img_f_21 from "../../assets/images/Gallery/Fresher_s2K24/img9.jpg";
 import img_f_22 from "../../assets/images/Gallery/Fresher_s2K24/img10.jpg";
 
+// techspardha 2k23
+import img_t_1 from "../../assets/images/Gallery/Techspardha_2K23/img1.jpg";
+import img_t_2 from "../../assets/images/Gallery/Techspardha_2K23/img2.jpg";
+import img_t_3 from "../../assets/images/Gallery/Techspardha_2K23/img3.jpg";
+import img_t_4 from "../../assets/images/Gallery/Techspardha_2K23/img4.jpg";
+
+// farewell
+import img_fw_1 from "../../assets/images/Gallery/Farewell_22/img1.jpg";
+import img_fw_2 from "../../assets/images/Gallery/Farewell_22/img2.jpg";
+import img_fw_3 from "../../assets/images/Gallery/Farewell_22/img3.jpg";
+
 function Gallery() {
   return (
     <div className="gallary-container">
@@ -141,7 +152,6 @@ function Gallery() {
         </Swiper>
       </div>
       
-      {/* ye karna h */}
       <div className="p5">
         <h1 className="ss">Techspardha 2K23</h1>
         <Swiper
@@ -163,7 +173,7 @@ function Gallery() {
         >
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img2} />
+              <img className="slide-image" src={img6} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -173,7 +183,7 @@ function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img5} />
+              <img className="slide-image" src={img_t_4} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -183,38 +193,37 @@ function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_t_1} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_t_4} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_t_3} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_t_2} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img6} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_t_1} />
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
 
-      {/* Ye karna h */}
       <div className="dd">
         <h1 className="ss">Freshers 2K22</h1>
         <Swiper
@@ -267,28 +276,27 @@ function Gallery() {
 
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img2} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img4} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img5} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img6} />
             </div>
           </SwiperSlide>
         </Swiper>
       </div>
 
-      {/* ye karna h */}
       <div className="p1">
         <h1 className="ss">Farewell 2K22</h1>
         <Swiper
@@ -325,38 +333,38 @@ function Gallery() {
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_fw_1} />
             </div>
           </SwiperSlide>
 
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_fw_2} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_fw_3} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img3} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img9} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img10} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div>
-              <img className="slide-image" src={img1} />
+              <img className="slide-image" src={img_fw_1} />
             </div>
           </SwiperSlide>
         </Swiper>
