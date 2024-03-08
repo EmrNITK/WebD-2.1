@@ -1,23 +1,4 @@
-// import React from "react";
-// import "../../../../../assets/css/aboutevents.css";
 
-// const About = (props) => {
-//   const redirectToForm = (link) => {
-//     window.open(link);
-//   };
-
-//   return (
-//     <div className="about-wrapper">
-//       <div className="max-width about">
-//         <div className="about-title">{props.heading}</div>
-//         <div className="about-content">{props.content}</div>
-//         <button onClick={() => About(props.glink)} className="register-button">REGISTER NOW </button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default About;
 import React from "react";
 import "../../../../../assets/css/aboutevents.css";
 
@@ -28,10 +9,10 @@ const About = (props) => {
     let link;
     switch (heading) {
       case "RoboSoccer":
-        link = "https://www.codechef.com/";
+        link = "https://docs.google.com/forms/d/e/1FAIpQLSfDar2JxF1Fs0DerASpff-rVpGE4q8ecpSL4f37FjcO7qeahg/viewform";
         break;
       case "Pixar":
-        link = "https://www.pixar.com/";
+        link = "https://docs.google.com/forms/d/e/1FAIpQLSePcx7P0PRtxz_83g6QSVK4ckuwHINGt7wJuC6rOy_Mt-shMg/formrestricted";
         break;
       case "Maze Up":
         link = "https://docs.google.com/forms/d/e/1FAIpQLScRFT9FRZXM3bPneYKxWSDanM22eeMegnfdWBe2e7_-Ds8cgA/viewform";

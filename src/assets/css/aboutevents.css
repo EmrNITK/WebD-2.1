@@ -15,42 +15,26 @@
     object-fit: fill;
 }
 
-/* .register-button {
-    background-color: #040704;
-    border:none;
-    color: rgb(90, 237, 68);
-    padding: 10px 20px;
-    text-align:left;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin: 10px 2px;
-    cursor: pointer;
-  }
-  
-  /* Hover effect */
-  /* .register-button:hover {
-    background-color: #06600a;
-  } */ 
-  .register-button {
-    background-color: #040704;
-    border: none;
-    color: rgb(39, 247, 7);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin: 10px 2px;
-    cursor: pointer;
-    border-radius: 25px; /* Make the button round */
-    transition: all 0.3s ease; /* Add transition for smooth hover effect */
-    box-shadow: 0px 4px 6px rgba(219, 226, 218, 0.1); /* Add box shadow for depth */
+.register-button {
+  background-color: #040704;
+  border: 2px solid #0f0; 
+  color: rgb(39, 247, 7);
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 50px 2px;
+  cursor: pointer;
+  border-radius: 25px; 
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+  box-shadow: 0px 4px 6px rgba(219, 226, 218, 0.1); /* Add box shadow for depth */
 }
 
+
 .register-button:hover {
-    background-color: #62f32e; /* Darken the background on hover */
+    background-color: #62f32e; 
     color: rgb(1, 1, 1); /* Change text color on hover */
-    transform: scale(1.05); /* Scale the button on hover for a slight zoom effect */
-    box-shadow: 0px 8px 12px rgba(208, 235, 99, 0.2); /* Enhance box shadow on hover */
+    transform: scale(1.05); /*  zoom effect */
+    box-shadow: 0px 8px 12px rgba(208, 235, 99, 0.2); 
 }
