@@ -80,6 +80,78 @@ function Gallery() {
         </div>
       </div>
 
+      <div className="p3">
+        <h1 className="ss">Freshers 2K24</h1>
+        <Swiper
+          modules={[Navigation, Pagination, EffectCoverflow]}
+          navigation={true}
+          pagination={false}
+          effect={"coverflow"}
+          centeredSlides={true}
+          slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+          loop={true}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_13} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_14} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_15} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_16} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_17} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_18} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_19} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_20} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_21} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_22} />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
       <div className="p2">
         <h1 className="ss">Embedded Workshops</h1>
         <Swiper
@@ -219,6 +291,78 @@ function Gallery() {
           <SwiperSlide>
             <div>
               <img className="slide-image" src={img_t_1} />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
+      <div className="p3">
+        <h1 className="ss">Freshers 2K23</h1>
+        <Swiper
+          modules={[Navigation, Pagination, EffectCoverflow]}
+          navigation={true}
+          pagination={false}
+          effect={"coverflow"}
+          centeredSlides={true}
+          slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
+          loop={true}
+          coverflowEffect={{
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_1} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_2} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_3} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_4} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_6} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_8} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_9} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_10} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_11} />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <img className="slide-image" src={img_f_12} />
             </div>
           </SwiperSlide>
         </Swiper>
@@ -365,150 +509,6 @@ function Gallery() {
           <SwiperSlide>
             <div>
               <img className="slide-image" src={img_fw_1} />
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-
-      <div className="p3">
-        <h1 className="ss">Freshers 2K23</h1>
-        <Swiper
-          modules={[Navigation, Pagination, EffectCoverflow]}
-          navigation={true}
-          pagination={false}
-          effect={"coverflow"}
-          centeredSlides={true}
-          slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-          loop={true}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_1} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_2} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_3} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_4} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_6} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_8} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_9} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_10} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_11} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_12} />
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-      
-      <div className="p3">
-        <h1 className="ss">Freshers 2K24</h1>
-        <Swiper
-          modules={[Navigation, Pagination, EffectCoverflow]}
-          navigation={true}
-          pagination={false}
-          effect={"coverflow"}
-          centeredSlides={true}
-          slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-          loop={true}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          className="mySwiper"
-        >
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_13} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_14} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_15} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_16} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_17} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_18} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_19} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_20} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_21} />
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div>
-              <img className="slide-image" src={img_f_22} />
             </div>
           </SwiperSlide>
         </Swiper>
