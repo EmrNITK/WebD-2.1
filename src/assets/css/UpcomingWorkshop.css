@@ -11,30 +11,68 @@
     place-items: center;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.module::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+/* .module {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  } */
 
+  /* CSS for the module */
+
+  
+  /* CSS to style the scrollbar */
+  /*  */
 .module_border_wrap {
+    height: 400px;
+    width: 400px;
     padding: 1rem;
     position: relative;
     border-radius: 20px;
     background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
     padding: 3px;
     margin-top: 20px;
-
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.module {
+/* .module {
     text-align: center;
     background: #222;
     color: white;
     border-radius: 20px;
     padding: 5%;
+} */
+.module {
+    
+    overflow-x:hidden;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px 100px 10px 30px;
 }
 
 .module img {
+    display: inline-block;
     border-radius: 25px;
     margin-bottom: 20px;
+    /* padding:10px; */
 }
-
+img {
+    --a: 8deg; /* control the angle of rotation (the smaller, the better) */
+    aspect-ratio: 1;
+    transform: perspective(400px) rotate3d(var(--i,1,-1),0,var(--a));
+    mask: 
+      linear-gradient(135deg,#000c 40%,#000,#000c 60%)
+      100% 100%/240% 240%;
+    transition: .4s;
+  }
+  img:hover {
+    --i:-1,1;
+    mask-position: 0 0;
+  }
 
 /* Gltich Animation and text  */
 
