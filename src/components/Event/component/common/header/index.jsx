@@ -23,11 +23,11 @@ const tabs = [
   },
   {
     id: 5,
-    name: "BitCoding",
+    name: "SynthAI",
   },
   {
     id: 6,
-    name: "SynthAI",
+    name: "BitCoding",
   }
 ];
 
@@ -57,7 +57,7 @@ function Header(props) {
                   props.setActiveTab(tab.name);
                   setisMenu(!isMenu);
                 }}
-                className={`tab-item cur-po ${
+                className={`tab-item cur-po Event_names ${
                   props.activeTab === tab.name && "active-tab"
                 }`}
               >
