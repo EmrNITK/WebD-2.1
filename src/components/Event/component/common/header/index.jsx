@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "../../../../../assets/css/eventheader.css";
 import { motion } from "framer-motion";
 
+
+
 const tabs = [
   {
     id: 1,
@@ -23,6 +25,10 @@ const tabs = [
     id: 5,
     name: "BitCoding",
   },
+  {
+    id: 6,
+    name: "SynthAI",
+  }
 ];
 
 function Header(props) {

@@ -21,6 +21,8 @@ import {
   bitcodingimages,
   mazeupimages,
   simulatorimages,
+  synthai,
+  synthaiWinners,synthaiimages
 } from "../../data.js";
 
 function EventPage() {
@@ -75,6 +77,14 @@ const getCorrectScreen = (tab_name) => {
           contentitems={bitcoding}
           WinnersList={bitcodingWinners}
           Images={bitcodingimages}
+        ></Event>
+      );
+    case "SynthAI":
+      return (
+        <Event
+          contentitems={synthai}
+          WinnersList={synthaiWinners}
+          Images={synthaiimages}
         ></Event>
       );
     default:
