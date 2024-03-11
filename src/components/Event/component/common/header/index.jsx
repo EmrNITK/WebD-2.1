@@ -23,7 +23,7 @@ const tabs = [
   },
   {
     id: 5,
-    name: "SynthAI",
+    name: "Synth AI",
   },
   {
     id: 6,
