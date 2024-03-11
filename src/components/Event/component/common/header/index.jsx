@@ -55,7 +55,7 @@ function Header(props) {
               <div
                 onClick={() => {
                   props.setActiveTab(tab.name);
-                  setisMenu(!isMenu);
+                  // setisMenu(!isMenu);
                 }}
                 className={`tab-item cur-po Event_names ${
                   props.activeTab === tab.name && "active-tab"
