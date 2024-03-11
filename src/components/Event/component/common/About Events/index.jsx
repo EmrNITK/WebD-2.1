@@ -23,7 +23,7 @@ const About = (props) => {
       case "Simulator":
         link = "https://docs.google.com/forms/d/e/1FAIpQLSexpgJ8na5PsP05n4b_b6yGsAOmpR3oG-2Xw9r09EFSFFS7EQ/viewform";
         break;
-      case "Synth AI":
+      case "SynthAI":
         link = "https://forms.gle/zCNwxp8MwcALcbq56";
         break;
 
