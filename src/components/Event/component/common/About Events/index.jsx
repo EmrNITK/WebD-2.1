@@ -36,19 +36,19 @@ const About = (props) => {
     let link;
     switch (heading) {
       case "RoboSoccer":
-        link = "https://docs.google.com/document/d/1cqo_mUjCIGM89ZdL6rt7XeLntAxoOOoMyKKeIp66FRE/edit";
+        link = "https://drive.google.com/file/d/1ILqr7BJmDtfLZ0bsqJQmk_MifJX938ZW/view?usp=drive_link";
         break;
       case "Pixar":
-        link = "https://docs.google.com/document/d/1ndZRYSdi32LhCzim6McjvFzTJEbqlwHe9dL9FgiSDMw/edit";
+        link = "https://drive.google.com/file/d/1tTE076A6yubjnk0Ho2ml0TU9xnyHAigZ/view?usp=drive_link";
         break;
       case "Maze Up":
-        link = "https://docs.google.com/document/d/1BHn-sl1rGv-mPiBAuAawSAj0AYgtPb-RZcbn1yYEsv0/edit";
+        link = "https://drive.google.com/file/d/1We8HB1qTFtCmmHYCoqhDRWrKllwmw29e/view?usp=drive_link";
         break;
       case "Bit Coding":
-        link = "https://docs.google.com/document/d/1nnJuXiLjmrUFyviQuD5IDnOxw9zit05rWpRIiHn5mLE/edit";
+        link = "https://drive.google.com/file/d/1_6MpHuaWgRkdgk0R0apsPO9KyrnRiF0F/view?usp=drive_link";
         break;
       case "Simulator":
-        link = "https://docs.google.com/document/d/11RgONkHEAYruFKIEXi7Jrx9bBJctSxkRuhCvqmBvUsM/edit";
+        link = "https://drive.google.com/file/d/1q5iG_Vg4s_V8NImuMLNDLzPwhlK8b0-t/view?usp=drive_link";
         break;
       case "SynthAI":
         link = "https://drive.google.com/file/d/1qiNShhRQtuV6ucuCRELkjvZNjbkIN2OZ/view";
