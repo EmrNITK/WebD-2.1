@@ -134,13 +134,23 @@ const Card = () => {
   // const y = useMotionValue(0);
   // const rotateX = useTransform(y, [-100, 100], [30, -30]);
   // const rotateY = useTransform(x, [-100, 100], [-30, 30]);
+  const [isExpanded, setIsExpanded] = useState(false);
   const [visit1, setVisit1] = useState(false);
   const [visit2, setVisit2] = useState(false);
   const [visit3, setVisit3] = useState(false);
 
+  const toggleExpansion = () => {
+    setIsExpanded(!isExpanded);
+  };
+
+  
+
   return (
     <div className="bod">
-      <div className="title">Present Team</div>
+      <div className="title" onClick={toggleExpansion} style={{ cursor: "pointer" }} onMouseOver={(e) => e.currentTarget.style.color = "#555"} onMouseOut={(e) => e.currentTarget.style.color = "green"}>
+        2k24 Team
+      </div>
+      {isExpanded && (
       <div className="team-wrapper" style={{ perspective: 3000 }}>
         {cardData.map((item, index) => (
           <div className="Card">
@@ -200,6 +210,7 @@ const Card = () => {
           </div>
         ))}
       </div>
+      )}
     </div>
   );
 };
