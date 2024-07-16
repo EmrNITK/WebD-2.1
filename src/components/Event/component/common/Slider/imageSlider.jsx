@@ -4,6 +4,9 @@ import { motion } from "framer-motion";
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setcurrentIndex] = useState(0);
 
+  const slideLength = slides.length;
+	// console.log(slideLength);
+
   const rightArrowStyles = {
     position: "absolute",
     top: "50%",
@@ -36,25 +39,25 @@ const ImageSlider = ({ slides }) => {
     borderRadius: "10px",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    backgroundImage: `url(${slides[currentIndex].url})`,
+    backgroundImage: `url(${slides[currentIndex % slideLength].url})`,
   };
 
   const goToPrevious = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setcurrentIndex(newIndex);
+    setcurrentIndex(newIndex % slideLength);
   };
   const goToNext = () => {
     const isLastSlide = currentIndex === slides.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setcurrentIndex(newIndex);
+    setcurrentIndex(newIndex % slideLength);
   };
   const goToSlide = (slideIndex) => {
-    setcurrentIndex(slideIndex);
+    setcurrentIndex(slideIndex % slideLength);
   };
   const slideStylesWidthBackground = {
     ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
+    backgroundImage: `url(${slides[currentIndex % slideLength].url})`,
   };
   const dotsContainerStyles = {
     display: "flex",
@@ -86,8 +89,8 @@ const ImageSlider = ({ slides }) => {
           <motion.div
             whileTap={{ scale: 0.75 }}
             style={dotStyle}
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
+            key={slideIndex % slideLength}
+            onClick={() => goToSlide(slideIndex % slideLength)}
           >
             ●
           </motion.div>
